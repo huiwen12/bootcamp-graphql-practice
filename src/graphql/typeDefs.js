@@ -116,6 +116,7 @@ module.exports = gql`
     state: String
     zip: Int
   }
+  
   scalar Date
 
 `
