@@ -5,8 +5,8 @@ module.exports = gql`
     welcome: String!
 
     allAuthors: [Author!]
-    author(id: ID!) = Author!
-    books: (id: ID): [Book!]!
+    author(id: ID!): = Author!
+    books(id: ID): [Book!]!
 
     bookById(id: ID!): Book!
     bestsellerBooks: [Book!]!
